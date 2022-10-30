@@ -1,0 +1,44 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+October 31, 2022 - 00:04:49
+Django version 4.1.2, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+[31/Oct/2022 00:05:34] "GET /todos/ HTTP/1.1" 200 4174
+[31/Oct/2022 00:05:35] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2022 00:05:45] "POST /todos/add/ HTTP/1.1" 302 0
+[31/Oct/2022 00:05:46] "GET /todos/ HTTP/1.1" 200 4752
+[31/Oct/2022 00:05:59] "GET /todos/ HTTP/1.1" 200 4752
+[31/Oct/2022 00:06:03] "GET /todos/ HTTP/1.1" 200 4752
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+October 31, 2022 - 00:06:35
+Django version 4.1.2, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+Error: That port is already in use.
+[31/Oct/2022 00:06:54] "GET / HTTP/1.1" 302 0
+[31/Oct/2022 00:06:55] "GET /todos/ HTTP/1.1" 200 4752
+[31/Oct/2022 00:06:57] "GET / HTTP/1.1" 302 0
+[31/Oct/2022 00:06:57] "GET /todos/ HTTP/1.1" 200 4752
+[31/Oct/2022 00:21:01] "GET /todos/ HTTP/1.1" 200 4752
+[31/Oct/2022 00:21:01] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Oct/2022 00:21:10] "GET / HTTP/1.1" 302 0
+[31/Oct/2022 00:21:11] "GET /todos/ HTTP/1.1" 200 4752
+[31/Oct/2022 00:21:14] "GET /todos/ HTTP/1.1" 200 4752
